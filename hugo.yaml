@@ -67,18 +67,6 @@ params:
     image: "images/pages/handy-dev-web.jpg"
     content:
       - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
-      - type: "table"
-        columns:
-          - heading: "Column 1"
-            items:
-              - "Bullet point 1"
-              - "Bullet point 2"
-              - "Bullet point 3"
-          - heading: "Column 2"
-            items:
-              - "Bullet point 4"
-              - "Bullet point 5"
-              - "Bullet point 6"
   p3:
     heading: "Our clients"
     content:
@@ -148,18 +136,18 @@ menu:
   posts:
     - identifier: all
       name: All
-    - identifier: blog
-      pre: comments # can be stars, comments or piechart
-      name: Blog
-      post: "Read our thoughts on tech"
-      url: "/categories/blog/"
-      weight: 10
-    - identifier: news
-      pre:  stars # can be stars, comments or piechart
-      name: News
-      post: "Hear what we're up to"
-      url: "categories/news/"
-      weight: 20
+    # - identifier: blog
+    #   pre: comments # can be stars, comments or piechart
+    #   name: Blog
+    #   post: "Read our thoughts on tech"
+    #   url: "/categories/blog/"
+    #   weight: 10
+    # - identifier: news
+    #   pre:  stars # can be stars, comments or piechart
+    #   name: News
+    #   post: "Hear what we're up to"
+    #   url: "categories/news/"
+    #   weight: 20
   footer:
     - identifier: about
       name: About
@@ -169,14 +157,14 @@ menu:
       name: Services
       url: /services/
       weight: 20
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 30
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 40
+    # - identifier: blog
+    #   name: Blog
+    #   url: /categories/blog/
+    #   weight: 30
+    # - identifier: news
+    #   name: News
+    #   url: /categories/news/
+    #   weight: 40
     - identifier: contact
       name: Contact
       url: /contact/

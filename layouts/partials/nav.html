@@ -15,6 +15,7 @@
         </div>
         <nav x-cloak :class="{'flex': open, 'hidden': !open}" class="hidden flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
             {{ range site.Menus.main }}
+            {{ if or (ne .Identifier "posts") (or (gt (len (where (where site.RegularPages "Type" "posts") "Params.categories" "Blog")) 0) (gt (len (where (where site.RegularPages "Type" "posts") "Params.categories" "News")) 0)) }}
             {{ if (eq "complexdropdown" .Pre) }}
             <div @click.away="open = false" class="relative" x-data="{ open: false }">
                 <button @click="open = !open" class="flex flex-row items-center px-4 py-2 mt-2 w-full text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline">
@@ -27,6 +28,8 @@
                     <div class="px-2 pt-2 pb-4 bg-white rounded-md shadow-lg text-zinc-900">
                         <div class="grid grid-cols-1 gap-4">
                             {{ range (index site.Menus .Identifier) }}
+                            {{ if or (ne .Identifier "blog") (gt (len (where (where site.RegularPages "Type" "posts") "Params.categories" "Blog")) 0) }}
+                            {{ if or (ne .Identifier "news") (gt (len (where (where site.RegularPages "Type" "posts") "Params.categories" "News")) 0) }}
                             <a class="flex items-start p-2 bg-transparent rounded-lg group row hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="{{ .URL | absLangURL }}">
                                 <div class="p-3 text-white rounded-lg bg-primary-600 group-hover:bg-gray-900">
                                     {{ if (eq .Pre "stars") }}
@@ -55,6 +58,8 @@
                                 </div>
                             </a>
                             {{ end }}
+                            {{ end }}
+                            {{ end }}
                         </div>
                     </div>
                 </div>
@@ -79,6 +84,7 @@
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
                 {{ .Name }}
             </a>
+            {{ end }}
             {{ end }}
             {{ end }}
             {{ if not .Site.Params.Disable_theme_toggle }}

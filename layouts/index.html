@@ -120,15 +120,15 @@
     <!-- Sponsors section -->
     <div class="px-4 mx-auto max-w-md md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="grid grid-cols-2 gap-0.5 mt-12 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+            <div class="flex justify-center items-center mt-12 lg:mt-0">
                 {{ range .Site.Params.P3.Logos }}
-                <div class="flex col-span-1 justify-center px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
+                <div class="flex justify-center items-center px-12 py-12 bg-gray-50 dark:bg-gray-900/10 rounded-lg">
                     {{ if .image }}
                     {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-24 md:max-h-32 lg:max-h-40" alt="{{ .alt }}" loading="lazy" />
                     {{ else }}
                     {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-24 md:max-h-32 lg:max-h-40" alt="{{ .alt }}" loading="lazy" />
                     {{ end }}
                 </div>
                 {{ end }}
@@ -153,6 +153,7 @@
         </div>
     </div>
 
+    {{ if gt (len (where site.RegularPages "Type" "posts")) 0 }}
     <!-- Blog section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
         <div class="absolute inset-0">
@@ -229,6 +230,7 @@
             </div>
         </div>
     </div>
+    {{ end }}
 
     {{ if not .Site.Params.Disable_stay_uptodate}}
     <!-- CTA section -->
