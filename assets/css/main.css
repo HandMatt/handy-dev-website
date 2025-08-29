@@ -356,3 +356,18 @@
 }
 
 /* Custom CSS end */
+
+/* Custom Font Classes */
+.quicksand-title {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quicksand-body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

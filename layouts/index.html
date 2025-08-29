@@ -4,7 +4,7 @@
         <div class="px-4 py-8 mx-auto max-w-screen-xl">
             <div class="grid gap-8 items-center mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
                 <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
-                    <h1 class="mb-2 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
+                    <h1 class="mb-2 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl xl:text-6xl dark:text-white quicksand-title">
                         {{ .Site.Title }}
                     </h1>
                     <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
@@ -56,7 +56,7 @@
             </div>
             <div class="relative px-4 mx-auto max-w-md sm:max-w-3xl sm:px-6 lg:px-0">
                 <div class="md:pt-12 sm:pt-6 lg:pt-20">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl quicksand-title">
                         {{ .Site.Params.P1.Heading }}
                     </h2>
                     <div class="mt-6 text-gray-900 dark:text-white">
@@ -79,14 +79,16 @@
             <div>
                 <div class="md:mt-8">
                     <div class="mt-6 sm:max-w-xl">
-                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16 quicksand-title">
                             {{ .Site.Params.P2.Heading }}
                         </h2>
-                        {{ range .Site.Params.P2.Content }}
-                        <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
-                            {{ .text }}
-                        </p>
-                        {{ end }}
+                        <div class="mt-6 prose prose-lg dark:prose-invert max-w-none">
+                            {{ range .Site.Params.P2.Content }}
+                            <div class="mb-4">
+                                {{ .text | markdownify }}
+                            </div>
+                            {{ end }}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +136,7 @@
                 {{ end }}
             </div>
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl quicksand-title">
                     {{ .Site.Params.P3.Heading }}
                 </h2>
                 {{ range .Site.Params.P3.Content }}
@@ -161,7 +163,7 @@
         </div>
         <div class="relative px-2 mx-auto max-w-7xl">
             <div class="text-center">
-                <h2 class="text-3xl font-black tracking-tight text-primary-500 dark:text-primary-300 sm:text-4xl">
+                <h2 class="text-3xl font-black tracking-tight text-primary-500 dark:text-primary-300 sm:text-4xl quicksand-title">
                     {{ .Site.Params.P4.Heading }}
                 </h2>
                 {{ range .Site.Params.P4.Content }}
@@ -245,7 +247,7 @@
                 </div>
                 <div class="relative">
                     <div class="sm:text-center">
-                        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl quicksand-title">
                             {{ .Site.Params.P5.Heading }}
                         </h2>
                         {{ range .Site.Params.P5.Content }}

@@ -1,6 +1,6 @@
 baseURL: 'https://handmatt.github.io/handy-dev-website/'
 title: Handy Development
-languageCode: en-us
+languageCode: en-gb
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: false
@@ -50,7 +50,7 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: images/tailbliss-cover.png
   moto: "Code in Hand, Future in Mind"
-  description: "Web apps crafted with care by an independent developer, Bristol based, working everywhere."
+  description: "Web apps crafted with care by an independent developer, based in Bristol, collaborating remotely with clients everywhere."
   call_to_action: "If you have a project in mind, or an opportunity that you think would be of interest..."
   disable_theme_toggle: false
   disable_stay_uptodate: true
@@ -59,18 +59,21 @@ params:
     heading: "Our mission"
     image: "images/pages/handy-dev-mission.png"
     content:
-      - text: "We’re all about using technology to create positive change. We craft innovative web applications that meet our clients' needs and uplift communities, making a real impact in the tech for good space."
-      - text: "We believe in personal growth—for ourselves and those we work with. Our commitment to learning keeps us updated on the latest technologies. By fostering a collaborative and creative atmosphere, we inspire everyone to realize their potential and think outside the box."
-      - text: "Our goal is to help individuals and organizations turn their big ideas into reality. We love partnering with clients who share our vision for a brighter future. Together, we can build user-friendly web applications that achieve business goals while promoting social good."
+      - text: "We use technology to make a positive difference. Our web apps are built to solve real problems and help organisations grow, especially those working to support their communities or create change."
+      - text: "We’re always learning and adapting, curious about new ideas so we can deliver the best possible solutions. When the project calls for it, we bring in trusted specialists to make sure everything’s done right."
+      - text: "Our goal is to help people and organisations bring their ideas to life. We love working with clients who care about making an impact, and together we can build web apps that are easy to use, effective, and help you reach your goals."
   p2:
     heading: "Our expertise"
     image: "images/pages/handy-dev-web.jpg"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
+      - text: "**Backend Web Development**\n\n• We build robust APIs and web applications with a focus on security and performance, leveraging technologies such as PHP (Laravel), Rust, and Python to deliver scalable solutions."
+      - text: "**Frontend Web Development**\n\n•  We craft engaging, responsive user interfaces using React for dynamic experiences and Hugo for lightning-fast static sites. Our expertise ensures your website is both visually appealing and highly performant across all devices."
+      - text: "**Industry Experience: Engineering & Education**\n\n• Our backgrounds in mechanical manufacturing and education give us unique perspective and empathy for clients in these fields."
+      - text: "**Collaborative Approach**\n\n• We value clear communication and reliable delivery, always working closely with our partners to achieve the best results."
   p3:
     heading: "Our clients"
     content:
-      - text: "We’re really proud to be a go-to partner for our clients, whether they need a new website, ongoing maintenance, technical support, or a full web application. Our history of delivering solid results keeps our clients coming back and sending others our way. We truly value building strong relationships and always aim to understand each client’s unique needs so we can help them succeed every step of the way."
+      - text: "We’re proud to be a trusted partner, whether our clients need a new website, ongoing support, or a custom web application. They return and refer others because we deliver results and build lasting relationships. We always take the time to understand every client’s needs and help them succeed."
     logos:
       - identifier: a
         image: "images/pages/scplogo1.png"
