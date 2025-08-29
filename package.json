@@ -17,7 +17,7 @@
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:css": "vite build --watch",
-    "watch:hugo": "hugo server",
+    "watch:hugo": "hugo server --baseURL http://localhost:1313/",
     "dev": "concurrently \"npm run watch:css\" \"npm run watch:hugo\"",
     "build:css": "vite build",
     "build": "npm run build:css && hugo --minify",
