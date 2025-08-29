@@ -15,10 +15,10 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
+                    {{ $hero := resources.GetMatch "images/pages/iStock-1206796363.jpg" }}
 
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
+                    {{ $thumb := ($hero.Fill "400x400 webp q90 center") }}
+                    {{ $large := ($hero.Fill "576x576 webp q90 center") }}
 
                     <img srcset="
                         {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}

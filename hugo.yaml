@@ -50,7 +50,7 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Code in Hand, Future in Mind"
-  description: "Bringing your visionary ideas to life with functional web applications that make a difference in the world."
+  description: "Web apps crafted with care by an independent developer, Bristol based, working everywhere."
   call_to_action: "If you have a project in mind, or an opportunity that you think would be of interest..."
   disable_theme_toggle: false
   disable_stay_uptodate: true
@@ -73,7 +73,7 @@ params:
       - text: "We’re really proud to be a go-to partner for our clients, whether they need a new website, ongoing maintenance, technical support, or a full web application. Our history of delivering solid results keeps our clients coming back and sending others our way. We truly value building strong relationships and always aim to understand each client’s unique needs so we can help them succeed every step of the way."
     logos:
       - identifier: a
-        image: "images/global/scplogo1.png"
+        image: "images/pages/scplogo1.png"
         alt: "Sporting Chance Project"
         url: "https://www.sportingchanceproject.co.uk/"
   p4:
