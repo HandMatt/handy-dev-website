@@ -15,12 +15,12 @@
     "vite": "^7.1.3"
   },
   "scripts": {
-    "start": "concurrently npm:watch:*",
+    "start": "concurrently pnpm:watch:*",
     "watch:css": "vite build --watch",
     "watch:hugo": "hugo server --baseURL http://localhost:1313/",
-    "dev": "concurrently \"npm run watch:css\" \"npm run watch:hugo\"",
+    "dev": "concurrently \"pnpm run watch:css\" \"pnpm run watch:hugo\"",
     "build:css": "vite build",
-    "build": "npm run build:css && hugo --minify",
+    "build": "pnpm run build:css && hugo --minify",
     "test": "hugo"
   },
   "repository": {

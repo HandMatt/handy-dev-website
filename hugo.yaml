@@ -48,7 +48,7 @@ markup:
 params:
   author: Matt Hand
   authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  og_image: images/tailbliss-cover.png
   moto: "Code in Hand, Future in Mind"
   description: "Web apps crafted with care by an independent developer, Bristol based, working everywhere."
   call_to_action: "If you have a project in mind, or an opportunity that you think would be of interest..."

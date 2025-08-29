@@ -21,8 +21,8 @@
                     {{ $large := ($hero.Fill "576x576 webp q90 center") }}
 
                     <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="mx-auto w-full max-w-xl rounded-lg" />
+                        {{- with $thumb.Permalink -}}{{.}} 400w{{- end -}}
+                        {{- with $large.Permalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.Permalink }}" width="100%" height="" alt="TailBliss Hero" class="mx-auto w-full max-w-xl rounded-lg" />
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                         {{ $p1image := resources.Get .Site.Params.P1.Image }}
                         {{ with $p1image }}
                         {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P1" loading="lazy" />
+                        <img imgh src="{{ .Permalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P1" loading="lazy" />
                         {{ end }}
                         {{ end }}
                     </div>
@@ -107,7 +107,7 @@
                     {{ $p2image := resources.Get .Site.Params.P2.Image }}
                     {{ with $p2image }}
                     {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                    <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
+                    <img imgh src="{{ .Permalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
                     {{ end }}
                     {{ end }}
 
@@ -125,10 +125,10 @@
                 <div class="flex justify-center items-center px-12 py-12 bg-gray-50 dark:bg-gray-900/10 rounded-lg">
                     {{ if .image }}
                     {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-24 md:max-h-32 lg:max-h-40" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.Permalink }}" class="max-h-24 md:max-h-32 lg:max-h-40" alt="{{ .alt }}" loading="lazy" />
                     {{ else }}
                     {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-24 md:max-h-32 lg:max-h-40" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.Permalink }}" class="max-h-24 md:max-h-32 lg:max-h-40" alt="{{ .alt }}" loading="lazy" />
                     {{ end }}
                 </div>
                 {{ end }}
