@@ -7,6 +7,50 @@ description: About Us
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
+<!--
+We build simple, effective websites and web apps from our studio in Bristol.
+
+Our focus is on projects that make a positive impact—especially in education, health, and well-being.
+
+We believe in clear communication, reliable code, and working with people who care about what they do.
+
+Let’s make something good together.
+-->
+
+We’re Handy Development, a web agency based in Bristol, founded by me, Matt Hand, in 2024. We’re passionate about building digital solutions that make life better for everyone. Our journey began with building proprietry software for startups in mobile intelligence and fraud prevention, today we continue help people and organisations bring their ideas to life.
+
+## Experience That Matters
+
+Over the past 4 years, we’ve worked on secure APIs for identity verification, effective UI's for viewing complex data, and websites for local businesses and charities.
+
+Our background covers core web technologies like JavaScript and PHP, frameworks such as Codeigniter, Laravel and React. We enjoy exploring a variety of technologies such as Python and Rust, and building small game projects.
+Recently we have been exploring Phaser.js to create fun and interactive user experiences and web games.
+
+## Why We Went Independent
+
+After successful careers in mechanical manufacture enginering and education we took our expertise and progressed to the world of web development.
+
+With 3 years of experience working with SME's during exciting phases of growth, we were inspired to focus on projects that align with our values such as tech for good, community, and creativity. Being independent means we can choose partnerships and challenges that genuinely resonate with us and with you.
+
+## What We Do
+
+We specialise in building websites and web applications that make a positive impact. From collaborating with established tech teams to building bespoke tech solutions from the ground up, we welcome unique challenges.
+
+We excel at updating existing systems and extening functionality, and we’re comfortable with everything from legacy code to the latest frameworks. Over the past few years, we’ve tackled projects from complex APIs for secure authentication to playful hobby games.
+
+## How We Work
+
+We believe the best results come from collaboration. Whether you have a clear vision or just an idea in its early stages, we’ll work closely with you at every step.
+
+Continuous learning is important to us and we always keep up with the latest technologies so your project benefits from new ideas and reliable expertise.
+
+## Let's Connect
+
+If you want to discuss working together, brainstorm an idea, or just chat about tech and community, we’d love to hear from you.
+
+You can reach us at info@handydeveloment.co.uk or use our [contact form](../contact).
+
+<!--
 # h1 Heading :blush:
 ## h2 Heading
 ### h3 Heading
@@ -240,3 +284,4 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
+-->
