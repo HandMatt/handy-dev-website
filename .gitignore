@@ -1,6 +1,8 @@
 node_modules/
 resources/
 public/
+static/css/
+static/js/
 .hugo_build.lock
 .vercel
 # Local Netlify folder
