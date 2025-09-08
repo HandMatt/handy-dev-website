@@ -17,6 +17,7 @@
               "text-zinc-800", "text-zinc-900", "bg-zinc-100", "bg-zinc-800",
               "border-zinc-200", "border-zinc-300", "border-zinc-600", "border-zinc-700";
   
+  --color-jazzblue: oklch(48.66% 0.119 247.79);
   --color-jazzblue-50: oklch(95.93% 0.016 245.06);
   --color-jazzblue-100: oklch(92.75% 0.029 241.59);
   --color-jazzblue-200: oklch(85.54% 0.06 242.37);
@@ -29,6 +30,7 @@
   --color-jazzblue-900: oklch(24.02% 0.051 246.44);
   --color-jazzblue-950: oklch(17.07% 0.029 241.2);
   
+  --color-damselfly: oklch(66.9% 0.135 238.52);
   --color-damselfly-50: oklch(95.61% 0.018 232.46);
   --color-damselfly-100: oklch(91.18% 0.038 231.91);
   --color-damselfly-200: oklch(82.56% 0.074 232.13);
@@ -41,6 +43,7 @@
   --color-damselfly-900: oklch(21.53% 0.037 235.36);
   --color-damselfly-950: oklch(14.71% 0.021 233.51);
   
+  --color-blackpearl: oklch(23.75% 0.04 230.05);
   --color-blackpearl-50: oklch(96.45% 0.017 225.12);
   --color-blackpearl-100: oklch(93.72% 0.03 225.99);
   --color-blackpearl-200: oklch(86.91% 0.062 226.87);
@@ -53,6 +56,7 @@
   --color-blackpearl-900: oklch(29.92% 0.054 232.08);
   --color-blackpearl-950: oklch(23.75% 0.04 230.05);
 
+  --color-christine: oklch(67.74% 0.175 50.02);
   --color-christine-50: oklch(95.77% 0.023 61.25);
   --color-christine-100: oklch(91.14% 0.05 61.23);
   --color-christine-200: oklch(82.42% 0.1 59.35);
@@ -65,6 +69,7 @@
   --color-christine-900: oklch(20.74% 0.043 57.64);
   --color-christine-950: oklch(15.12% 0.029 70.3);
   
+  --color-jaffa: oklch(76.54% 0.148 65.47);
   --color-jaffa-50: oklch(95.67% 0.027 69.3);
   --color-jaffa-100: oklch(91.6% 0.055 71.48);
   --color-jaffa-200: oklch(83.83% 0.103 69.36);
