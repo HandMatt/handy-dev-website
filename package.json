@@ -1,7 +1,7 @@
 {
-  "name": "TailBliss",
+  "name": "handy-dev-website",
   "version": "1.0.0",
-  "description": "Hugo + Alpine.js + TailwindCSS",
+  "description": "Handy Development Website",
   "main": "index.js",
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.12",
@@ -25,25 +25,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nusserstudios/tailbliss.git"
+    "url": "git+https://github.com/HandMatt/handy-dev-website"
   },
   "keywords": [
     "hugo",
     "tailwind",
-    "tailwindcsgits",
-    "alpinejs",
-    "minimal",
-    "responsive",
-    "light mode",
-    "dark mode",
-    "hugo blog",
-    "categories",
-    "tags"
+    "portfolio",
+    "web-development",
+    "static-site"
   ],
-  "author": "NusserStudios",
+  "author": "Handy Development",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nusserstudios/tailbliss/issues"
+    "url": "https://github.com/HandMatt/handy-dev-website/issues"
   },
-  "homepage": "https://github.com/nusserstudios/tailbliss"
+  "homepage": "https://handydevelopment.co.uk"
 }

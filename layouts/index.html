@@ -21,8 +21,8 @@
                     {{ $large := ($hero.Fill "576x576 webp q90 center") }}
 
                     <img srcset="
-                        {{- with $thumb.Permalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.Permalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.Permalink }}" width="100%" height="" alt="TailBliss Hero" class="mx-auto w-full max-w-xl rounded-lg" />
+                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.Permalink }}" width="100%" height="" alt="Handy Development Hero" class="mx-auto w-full max-w-xl rounded-lg" />
                 </div>
             </div>
         </div>

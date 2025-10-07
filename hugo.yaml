@@ -48,7 +48,7 @@ markup:
 params:
   author: Matt Hand
   authorimage: ../assets/images/global/author.webp
-  og_image: images/tailbliss-cover.png
+  og_image: images/handy-dev-logo.svg
   moto: "Code in Hand, Future in Mind"
   description: "Web apps crafted with care by an independent developer, based in Bristol, collaborating remotely with clients everywhere."
   call_to_action: "If you have a project in mind, or an opportunity that you think would be of interest..."
@@ -59,7 +59,6 @@ params:
     heading: "Our mission"
     image: "images/pages/handy-dev-mission.png"
     content:
-#      - text: "We use technology to make a positive impact. Our web apps help organizations grow, especially those working for their communities or driving change."
       - text: "We use technology to make a positive difference. Our web apps are built to solve real problems and help organisations grow, especially those working to support their communities or create change."
       - text: "We’re always learning and adapting, curious about new ideas so we can deliver the best possible solutions. When the project calls for it, we bring in trusted specialists to make sure everything’s done right."
       - text: "Our goal is to help people and organisations bring their ideas to life. We love working with clients who care about making an impact, and together we can build web apps that are easy to use, effective, and help you reach your goals."
