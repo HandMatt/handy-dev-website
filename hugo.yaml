@@ -1,4 +1,4 @@
-baseURL: 'https://handydevelopment.co.uk/'
+baseURL: "https://handydevelopment.co.uk/"
 title: Handy Development
 languageCode: en-gb
 DefaultContentLanguage: en
@@ -22,17 +22,17 @@ markup:
       table: true
       taskList: true
       typographer:
-        apostrophe: '&rsquo;'
+        apostrophe: "&rsquo;"
         disable: false
-        ellipsis: '&hellip;'
-        emDash: '&mdash;'
-        enDash: '&ndash;'
-        leftAngleQuote: '&laquo;'
-        leftDoubleQuote: '&ldquo;'
-        leftSingleQuote: '&lsquo;'
-        rightAngleQuote: '&raquo;'
-        rightDoubleQuote: '&rdquo;'
-        rightSingleQuote: '&rsquo;'
+        ellipsis: "&hellip;"
+        emDash: "&mdash;"
+        enDash: "&ndash;"
+        leftAngleQuote: "&laquo;"
+        leftDoubleQuote: "&ldquo;"
+        leftSingleQuote: "&lsquo;"
+        rightAngleQuote: "&raquo;"
+        rightDoubleQuote: "&rdquo;"
+        rightSingleQuote: "&rsquo;"
     parser:
       attribute:
         block: false
@@ -66,19 +66,19 @@ params:
     heading: "Our expertise"
     image: "images/pages/handy-dev-web.jpg"
     content:
-#      - text: "**Backend:** Secure, scalable APIs and web apps with PHP (Laravel), Rust, and Python."
-#      - text: "**Frontend:** Responsive interfaces with React and Hugo, fast, dynamic, and user-friendly."
-#      - text: "**Industry Insight:** Experience in engineering, education and mobile identity."
-#      - text: "**Collaboration:** Clear communication. Reliable delivery."
-      - text: "**Backend Web Development**\n\n• We build robust APIs and web applications with a focus on security and performance, leveraging technologies such as PHP (Laravel), Rust, and Python to deliver scalable solutions."
-      - text: "**Frontend Web Development**\n\n•  We craft engaging, responsive user interfaces using React for dynamic experiences and Hugo for lightning-fast static sites. Our expertise ensures your website is both visually appealing and highly performant across all devices."
-      - text: "**Industry Experience: Engineering & Education**\n\n• Our backgrounds in mechanical manufacturing and education give us unique perspective and empathy for clients in these fields."
-      - text: "**Collaborative Approach**\n\n• We value clear communication and reliable delivery, always working closely with our partners to achieve the best results."
+      #      - text: "**Backend:** Secure, scalable APIs and web apps with PHP (Laravel), Rust, and Python."
+      #      - text: "**Frontend:** Responsive interfaces with React and Hugo, fast, dynamic, and user-friendly."
+      #      - text: "**Industry Insight:** Experience in engineering, education and mobile identity."
+      #      - text: "**Collaboration:** Clear communication. Reliable delivery."
+      - text: "**Backend Web Development**\n\nWe build robust APIs and web applications with a focus on security and performance, leveraging technologies such as PHP (Laravel), Rust, and Python to deliver scalable solutions."
+      - text: "**Frontend Web Development**\n\nWe craft engaging, responsive user interfaces using React for dynamic experiences and Hugo for lightning-fast static sites. Our expertise ensures your website is both visually appealing and highly performant across all devices."
+      - text: "**Industry Experience: Engineering & Education**\n\nOur backgrounds in mechanical manufacturing and education give us unique perspective and empathy for clients in these fields."
+      - text: "**Collaborative Approach**\n\nWe value clear communication and reliable delivery, always working closely with our partners to achieve the best results."
 
   p3:
     heading: "Our clients"
     content:
-#      - text: "We use technology to make a positive impact. Our web apps help organizations grow, especially those working for their communities or driving change."
+      #      - text: "We use technology to make a positive impact. Our web apps help organizations grow, especially those working for their communities or driving change."
       - text: "We’re proud to be a trusted partner, whether our clients need a new website, ongoing support, or a custom web application. They return and refer others because we deliver results and build lasting relationships. We always take the time to understand every client’s needs and help them succeed."
     logos:
       - identifier: a
@@ -101,19 +101,19 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/HandMatt'
+      url: "https://github.com/HandMatt"
     facebook:
       enabled: false
-      url: 'https://facebook.com/'
+      url: "https://facebook.com/"
     instagram:
       enabled: false
-      url: 'https://instagram.com/'
+      url: "https://instagram.com/"
     twitter:
       enabled: false
-      url: 'https://twitter.com/'
+      url: "https://twitter.com/"
     linkedin:
       enabled: true
-      url: 'https://www.linkedin.com/in/matthew-hand/'
+      url: "https://www.linkedin.com/in/matthew-hand/"
 
 menu:
   main:
@@ -182,11 +182,6 @@ menu:
       name: Policies
       url: /policies/
       weight: 60
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
 
 taxonomies:
   category: Categories

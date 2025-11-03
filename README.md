@@ -21,6 +21,7 @@
 ## Development Setup
 
 ### Prerequisites
+
 - [Hugo Extended](https://gohugo.io/) (v0.148.2+)
 - [Node.js](https://nodejs.org/) (for pnpm/npm)
 - [pnpm](https://pnpm.io/) (recommended) or npm
@@ -33,6 +34,7 @@ pnpm install
 ```
 
 Or with npm:
+
 ```bash
 npm install
 ```
@@ -46,6 +48,7 @@ pnpm run dev
 ```
 
 Or with npm:
+
 ```bash
 npm run dev
 ```
@@ -61,6 +64,7 @@ pnpm run build
 ```
 
 Or with npm:
+
 ```bash
 npm run build
 ```
@@ -88,7 +92,7 @@ npm run build
 The contact form uses [FormSubmit.co](https://formsubmit.co/). Update the form action in `content/contact.md`:
 
 ```html
-<form action="https://formsubmit.co/your@email.com" method="POST">
+<form action="https://formsubmit.co/your@email.com" method="POST"></form>
 ```
 
 ## Image Shortcode
